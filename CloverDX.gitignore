@@ -2,7 +2,7 @@
 # Documentation: https://doc.cloverdx.com/latest/developer/server-projects-versioning.html
 
 # Directories containing data
-# You may want to keep an empty directory with a keep.me file, or congigure 'Create directories' property for writer componenets
+# You may want to keep an empty directory with a keep.me file, or configure 'Create directories' property for writer components
 /data-out/*
 !/data-out/keep.me
 /data-tmp/*
@@ -10,8 +10,22 @@
 /data-in/*
 !/data-in/keep.me
 
+# Parameter file
+.prm
+
+# Connection config
+.cfg
+.tokens
+.env
+
 # CloverDX IDE config
 .settings
+
+# Persistent sequence and lookup
+/seq/*
+!/seq/keep.me
+/lookup/*
+!/lookup/keep.me
 
 # Compiled class file
 *.class
@@ -19,8 +33,8 @@
 # Log file
 *.log
 
-# Package Files 
-# Notably .jar files are not included here
+# Package File
+# Notably .jar is not included here, if you have large dependency jar file it is recommended to add it
 *.war
 *.nar
 *.ear
