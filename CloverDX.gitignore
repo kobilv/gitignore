@@ -18,6 +18,7 @@
 *.cfg
 *.tokens
 .env
+/ssh-keys/*
 
 # CloverDX IDE config
 .settings
