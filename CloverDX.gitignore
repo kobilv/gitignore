@@ -12,6 +12,7 @@
 
 # Parameter file
 *.prm
+!workspace.prm
 
 # Connection config
 *.cfg
