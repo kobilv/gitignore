@@ -11,11 +11,11 @@
 !/data-in/keep.me
 
 # Parameter file
-.prm
+*.prm
 
 # Connection config
-.cfg
-.tokens
+*.cfg
+*.tokens
 .env
 
 # CloverDX IDE config
